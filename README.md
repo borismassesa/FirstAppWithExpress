@@ -4,3 +4,4 @@
 3. Express Routing Basics
 4. Express Path Parameters
 5. Working with Query Strings
+6. Auto-Restart with Nodemon
