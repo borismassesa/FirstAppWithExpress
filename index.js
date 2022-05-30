@@ -10,6 +10,10 @@ app.get("/r/:subreddit", (req,res) => {
   const {subreddit} = req.params;
   res.send(`Browsing ${subreddit} subreddit.`)
 })
+app.get("/r/:subreddit/:postID", (req,res) => {
+  const {subreddit,postID} = req.params;
+  res.send(`Viewing Post ID: ${postID} on a browsing ${subreddit} subreddit.`)
+})
 app.get("/", (req,res) => {
   res.send("Welcome to the home page")
 })
