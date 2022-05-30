@@ -21,7 +21,7 @@ app.get("/r/:subreddit/:postID", (req,res) => {
 })
 
 app.get("/", (req,res) => {
-  res.send("Welcome to the home page")
+  res.send("Welcome to the home page!!!")
 })
 
 app.get("/cats", (req,res) => {
